@@ -1,0 +1,26 @@
+{
+  "name": "playwright-persistent-context",
+  "version": "1.0.0",
+  "description": "State-of-the-art Playwright persistent context example for asset caching",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "init": "npm run build && node dist/init.js",
+    "copy-and-run": "npm run build && node dist/copy-and-run.js",
+    "dev:init": "tsx src/init.ts",
+    "dev:copy-and-run": "tsx src/copy-and-run.ts"
+  },
+  "keywords": ["playwright", "persistent-context", "typescript", "esm", "caching"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  }
+}
