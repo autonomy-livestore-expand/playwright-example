@@ -193,19 +193,3 @@ This is expected when caching large assets. Monitor with `getContextSize()`.
 
 ### Permission errors
 Ensure write permissions for the `contexts/` directory.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📄 License
-
-MIT License - feel free to use in your projects!
-
----
-
-**Perfect for web agents that need to efficiently handle pages with large database files!** 🤖✨
